@@ -32,6 +32,7 @@ func LoadConfiguration(file string) (Config, error) {
 }
 
 func main() {
+
 	fmt.Println("Starting the application...")
 	config, _ := LoadConfiguration("config.json")
 
